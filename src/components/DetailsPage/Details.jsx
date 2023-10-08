@@ -30,7 +30,7 @@ export default function DetailPage() {
     // Render the movie details if the movie exists, otherwise show a "Movie not found" message
     return (
         <div className="detailHolder">
-            {/* Go back to the previous page */}
+            {/* Button to go back to the previous page */}
             <button
                 className="backButton"
                 onClick={() => history.push("/")}
@@ -50,14 +50,16 @@ export default function DetailPage() {
                         <p>{movie.description}</p>
 
                         {/* Display the movie genres */}
-                        <h3>Genres :</h3>
+                        <h3>Genres:</h3>
                         <ul>
                             {movie.genres.map((genre, index) => (
+                                // Display each genre
                                 <li key={index}>{genre}</li>
                             ))}
                         </ul>
                     </>
                 ) : (
+                    // Display "Movie not found" message
                     <p>Movie not found.</p>
                 )}
             </div>
