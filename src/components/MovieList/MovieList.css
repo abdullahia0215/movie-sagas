@@ -2,3 +2,69 @@
     display : flex;
     flex-wrap: wrap;
 }
+.movieGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .movieHeader {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+  }
+  
+  .gridItem {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+  }
+  
+  .titleCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .titleCard h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .titleCard img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+  }
+  
+  .genreList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .genreList li {
+    margin-bottom: 0.25rem;
+  }
+  
+  .detailsButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .detailsButton:hover {
+    background-color: #0056b3;
+  }

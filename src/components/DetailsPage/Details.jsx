@@ -1,6 +1,7 @@
 import { useParams, useHistory } from "react-router-dom";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import './Details.css';
 
 export default function DetailPage() {
     const { id } = useParams();
