@@ -2,15 +2,15 @@
 ## Description
 This project is a movie app that allows users to view a list of movies along with their posters and genres. Users can click on the "Details" button for each movie to get more information. 
 ## Technologies
-React
-Node.js
-Express.js
-PostgreSQL
-Redux
-Redux Sagas
-React Redux
-React Router
-Axios
+- React
+- Node.js
+- Express.js
+- PostgreSQL
+- Redux
+- Redux Sagas
+- React Redux
+- React Router
+- Axios
 
 ## Server Set Up
 To set up the server:
