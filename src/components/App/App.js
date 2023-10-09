@@ -13,9 +13,6 @@ function App() {
             <li>
               <NavLink to="/">Movie list</NavLink>
             </li>
-            <li>
-              <NavLink to="/addmovie">Add movie form</NavLink>
-            </li>
           </ul>
         </nav>
         <Route path="/" exact>
